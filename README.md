@@ -1,4 +1,4 @@
-<img src="./github_readme_files/appIcon.png" width="125"/>
+<img src="./github_readme_files/nodiumpy_app_icon.png" width="125"/>
 
 # NodiumPy
 
@@ -6,7 +6,7 @@ This is a very simple and minimal python application for node based image proces
 
 My goal in writing this was to learn about dearpygui and flow based programming. The use case for this simple application is merely educational and will benefit students or other enthusiasts wishing to develop a visceral and practical understanding of how some image algorithms affect the input image and what the combination of these algorithms will look like.
 
-![demo_image_1](./github_readme_files/demo_image_1.png)
+![demo_image_1](./github_readme_files/nodiumpy_demo_image_1.png)
 
 </br>
 </br>
@@ -221,7 +221,7 @@ Node for writing video files to disk.
 Python 3.11.3 and above is supported. All the required libraries can be installed using this line:
 
 ```
-pip install dearpygui opencv-python
+pip install dearpygui opencv-python Pillow
 ```
 </br>
 
