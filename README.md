@@ -2,9 +2,13 @@
 
 # NodiumPy
 
-This is a very simple and minimal python application for node based image processing. The structure is very lean and highly modular and allows for the existing nodes to be easily modified or for new nodes to be conveniently added.
+This is a very simple and minimal python application for node based image processing. The structure is very lean and
+highly modular and allows for the existing nodes to be easily modified or for new nodes to be conveniently added.
 
-My goal in writing this was to learn about dearpygui and flow based programming. The use case for this simple application is merely educational and will benefit students or other enthusiasts wishing to develop a visceral and practical understanding of how some image algorithms affect the input image and what the combination of these algorithms will look like.
+My goal in writing this was to learn about dearpygui and flow based programming. The use case for this simple
+application is merely educational and will benefit students or other enthusiasts wishing to develop a visceral and
+practical understanding of how some image algorithms affect the input image and what the combination of these algorithms
+will look like.
 
 ![demo_image_1](./github_readme_files/nodiumpy_demo_image_1.png)
 
@@ -12,6 +16,7 @@ My goal in writing this was to learn about dearpygui and flow based programming.
 </br>
 
 # Avalilable Nodes
+
 <details>
 <summary><strong>Input Nodes</strong></summary>
 <table>
@@ -218,26 +223,36 @@ Node for writing video files to disk.
 </br>
 
 # Requirements
+
 Python 3.11.3 and above is supported. All the required libraries can be installed using this line:
 
 ```
 pip install dearpygui opencv-python Pillow
 ```
+
 </br>
 
 # Running
+
 After setting up a python environment and installing the requirements, you can launch nodiumpy by running *main.py*
+
 ```
 python main.py
 ```
+
 </br>
 
 # License
+
 NodiumPy is licensed under Apache 2.0 License.
 </br>
 </br>
 
 # Credits
+
 + Developed by Farzad Shayanfar
-+ *[Jonathan Hoffstadt](https://github.com/hoffstadt)* and *[Preston Cothren](https://github.com/Pcothren)* and others for their work on *[DearPyGui](https://github.com/hoffstadt/DearPyGui)*
-+ This work is highly inspired by *[Image-Processing-Node-Editor](https://github.com/Kazuhito00/Image-Processing-Node-Editor)* by *[Kazuhito Takahashi](https://github.com/Kazuhito00)*
++ *[Jonathan Hoffstadt](https://github.com/hoffstadt)* and *[Preston Cothren](https://github.com/Pcothren)* and others
+  for their work on *[DearPyGui](https://github.com/hoffstadt/DearPyGui)*
++ This work is highly inspired by
+  *[Image-Processing-Node-Editor](https://github.com/Kazuhito00/Image-Processing-Node-Editor)* by
+  *[Kazuhito Takahashi](https://github.com/Kazuhito00)*

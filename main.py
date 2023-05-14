@@ -4,16 +4,14 @@ import time
 import cv2
 import dearpygui.dearpygui as dpg
 
-from Resources import AppIcon
+from project_resources import AppIcon
 from node_editor.editor import NodeEditor
 from settings import AppSettings
 
 
 def main():
-    # initiating settings
     settings = AppSettings()
 
-    # use opencv in optimized mode
     cv2.setUseOptimized(True)
 
     dpg.create_context()
@@ -27,7 +25,7 @@ def main():
                         width=settings.windowWidth,
                         height=settings.windowHeight,
                         vsync=False)
-    
+
     menu_dict = {
         "Inputs": "inputs",
         "Adjustments": "adjustments",

@@ -5,8 +5,8 @@ import dearpygui.dearpygui as dpg
 import numpy as np
 
 from node_editor.connection_objects import NodeAttribute, AttributeType
-from nodes.inputs.objects.video_objects import VideoFile
 from node_editor.editor import NodeEditor
+from nodes.inputs.objects.video_objects import VideoFile
 from nodes.node import NodeBase
 
 

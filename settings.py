@@ -4,7 +4,7 @@ from pathlib import Path
 
 import dearpygui.dearpygui as dpg
 
-from Resources import Fonts
+from project_resources import Fonts
 
 
 class AppSettings:
