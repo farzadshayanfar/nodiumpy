@@ -4,7 +4,7 @@ import time
 import cv2
 import dearpygui.dearpygui as dpg
 
-from project_resources import AppIcon
+from project_resources import AppIconPath
 from node_editor.editor import NodeEditor
 from settings import AppSettings
 
@@ -20,8 +20,8 @@ def main():
     dpg.setup_dearpygui()
 
     dpg.create_viewport(title="NodiumPy",
-                        small_icon=AppIcon,
-                        large_icon=AppIcon,
+                        small_icon=AppIconPath,
+                        large_icon=AppIconPath,
                         width=settings.windowWidth,
                         height=settings.windowHeight,
                         vsync=False)

@@ -1,11 +1,12 @@
-from importlib.resources import path
+from importlib.abc import Traversable
+from importlib.resources import files
 
-import res.Fonts
-import res.Icons
+import res.icons
+import res.fonts
 
-AppIcon: str = str(path(package=res.Icons, resource="appIcon.ico").args[0])
+icons_paths: Traversable = files(package=res.icons)
+AppIconPath: str = str(icons_paths.joinpath("app_icon.ico"))
 
-
-class Fonts:
-    JetBrainsMonoRegular: str = str(path(package=res.Fonts, resource="JetBrainsMono-Regular.ttf").args[0])
-    JetBrainsMonoMedium: str = str(path(package=res.Fonts, resource="JetBrainsMono-Medium.ttf").args[0])
+fonts_paths: Traversable = files(package=res.fonts)
+JetBrainsMonoRegularPath: str = str(fonts_paths.joinpath("JetBrainsMono-Regular.ttf"))
+JetBrainsMonoMediumPath: str = str(fonts_paths.joinpath("JetBrainsMono-Medium.ttf"))

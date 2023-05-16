@@ -4,7 +4,7 @@ from pathlib import Path
 
 import dearpygui.dearpygui as dpg
 
-from project_resources import Fonts
+import project_resources
 
 
 class AppSettings:
@@ -388,6 +388,6 @@ class AppSettings:
     @staticmethod
     def addFonts() -> None:
         with dpg.font_registry():
-            dpg.add_font(tag="JetBrains_mono_regular", file=Fonts.JetBrainsMonoRegular, size=17)
-            dpg.add_font(tag="JetBrains_mono_medium", file=Fonts.JetBrainsMonoMedium, size=17)
+            dpg.add_font(tag="JetBrains_mono_regular", file=project_resources.JetBrainsMonoRegularPath, size=17)
+            dpg.add_font(tag="JetBrains_mono_medium", file=project_resources.JetBrainsMonoMediumPath, size=17)
         dpg.bind_font(font="JetBrains_mono_medium")
